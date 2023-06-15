@@ -7,15 +7,12 @@ issue_tracker: https://github.com/miroslava-podybailo/flutter_sliver_header_dele
 documentation: https://github.com/miroslava-podybailo/flutter_sliver_header_delegate/blob/master/README.md
 
 environment:
-  sdk: '>=2.12.0 <3.0.0'
-  flutter: ">=1.17.0"
+  sdk: '>=2.12.0 <4.0.0'
+  # flutter: ">=1.17.0"
 
 dependencies:
   flutter:
     sdk: flutter
 
 dev_dependencies:
-  flutter_test:
-    sdk: flutter
-
-  extra_pedantic: ^1.2.0
+  flutter_lints: ^2.0.1
